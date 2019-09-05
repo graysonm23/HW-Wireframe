@@ -28,7 +28,6 @@ body {
     color: #969696;
 }
 
-
 h4 {
     background: lavender;
     margin-left: 100px;
@@ -39,3 +38,37 @@ h4 {
     vertical-align: middle;
     line-height: 90px;
 }
+
+footer {
+    background: lavender;
+    margin-left: 100px;
+    margin-right: 100px;
+    height: 100px;
+    text-align: center;
+    padding: 20px;
+    vertical-align: middle;
+    line-height: 90px;
+    margin-top: 20px;
+}
+
+.clearfix::after {
+    content: " ";
+    display: block;
+    clear: both;
+  }
+
+  article {
+      height: 310px;
+      position: relative;
+      background: #777777;
+      margin-left: 5%;
+      margin-bottom: 5%;
+      margin-right: 5%;
+  }
+  
+  h1, p {
+      background: lavender;
+      margin-left: 80px;
+      margin-right: 80px;
+      margin-bottom: 10px;
+  }

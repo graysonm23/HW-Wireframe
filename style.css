@@ -1,0 +1,41 @@
+aside {
+    float: left;
+    background: lavender;
+    height: 400px;
+    width: 404px;
+    margin-right: 100px;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 90px;
+    
+}
+
+main {
+    float: left;
+    background: lavender;
+    height: 400px;
+    width: 800px;
+    margin-left: 100px;
+    margin-right: 20px;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 90px;
+}
+
+body {
+    background: gray;
+    text-align: center;
+    color: #969696;
+}
+
+
+h4 {
+    background: lavender;
+    margin-left: 100px;
+    margin-right: 100px;
+    height: 100px;
+    text-align: center;
+    padding: 20px;
+    vertical-align: middle;
+    line-height: 90px;
+}
